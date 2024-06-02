@@ -25,3 +25,19 @@ import pandas as pd
 import seaborn as sns
 ```
 
+## Data Acquisition
+### I am using the geyser dataset available in seaborn. I picked this dataset because it is not one that I have seen or used in other projects.
+```shell
+# Load the dataset into a pandas DataFrame - adjust this process for your custom data
+df = sns.load_dataset('geyser')
+
+# Inspect first rows of the DataFrame
+print(df.head())
+```
+
+## Initial Data Inspection
+```shell
+print(df.head(10))
+print(df.shape)
+print(df.dtypes)
+```
