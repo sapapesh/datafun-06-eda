@@ -27,6 +27,9 @@ import seaborn as sns
 
 ## Data Acquisition
 ### I am using the geyser dataset available in seaborn. I picked this dataset because it is not one that I have seen or used in other projects.
+
+The geyser data can be found at geyser_dataset.csv.  https://github.com/sapapesh/datafun-06-eda/blob/main/geyser_dataset.csv
+
 ```shell
 # Load the dataset into a pandas DataFrame - adjust this process for your custom data
 geyser_df = sns.load_dataset('geyser')
