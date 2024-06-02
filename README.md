@@ -29,10 +29,13 @@ import seaborn as sns
 ### I am using the geyser dataset available in seaborn. I picked this dataset because it is not one that I have seen or used in other projects.
 ```shell
 # Load the dataset into a pandas DataFrame - adjust this process for your custom data
-df = sns.load_dataset('geyser')
+geyser_df = sns.load_dataset('geyser')
 
 # Inspect first rows of the DataFrame
-print(df.head())
+print(geyser_df.head())
+
+# Download the data set to a CSV
+geyser_df.to_csv('geyser_dataset.csv', index=False)
 ```
 
 ## Initial Data Inspection
