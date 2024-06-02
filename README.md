@@ -17,3 +17,11 @@ py -m pip freeze > requirements.txt
 
 ### I added .venv and .ipynb_checkpoints/ to the .gitignore file.
 ### Open the jupyter notebook
+
+## Import Dependencies
+```shell
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+```
+
